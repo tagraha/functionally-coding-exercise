@@ -9,7 +9,7 @@ class ResponseInput extends Component {
     this.nameInput.focus();
   }
   onTypeFn() {
-    if(event.key === 'Enter'){
+    if(event.key === 'Enter' && this.props.responseText.trim().length > 0){
       this.props.onHitEnter();
    }
   }
