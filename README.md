@@ -1,4 +1,5 @@
-installation
+## installation
+
 clone the repository
 ```bash
 git clone git@github.com:tagraha/functionally-coding-exercise.git
