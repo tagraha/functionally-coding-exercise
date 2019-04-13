@@ -1,9 +1,9 @@
-## demo
+## Demo
 
 you can try the demo here
 https://funtionally-exercise.herokuapp.com/
 
-## installation
+## Installation
 
 clone the repository
 ```bash
@@ -21,3 +21,8 @@ npm run build && npm start
 ```
 
 open browser & navigate to `localhost:3000`
+
+
+## The App
+the main app component is located at `src/components/apps.js`.
+once you've run `npm run build`, it will creating fresh `build` folder and `views` folder. however, this repository is not yet integrated with react-router for navigating and react-helmet for maintaining metadata 
