@@ -1,3 +1,8 @@
+## demo
+
+you can try the demo here
+https://funtionally-exercise.herokuapp.com/
+
 ## installation
 
 clone the repository
