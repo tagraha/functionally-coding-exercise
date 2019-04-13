@@ -12,7 +12,7 @@
     "start": "node index.js",
     "pack": "webpack -p --config webpack.config.js",
     "babel": "babel src -d views",
-    "build": "npm run pack && npm run babel",
+    "build": "npm run clean && npm run pack && npm run babel",
     "clean": "rm -rf views && rm -rf build"
   },
   "dependencies": {
