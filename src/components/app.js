@@ -41,16 +41,5 @@ class App extends Component {
     );
   }
 }
- 
-// function mapStateToProps(state) {
-//   const { isFetching, apps } = state
-//  
-//   return {
-//     isFetching,
-//     apps
-//   }
-// }
-//  
-// export default connect(mapStateToProps)(App)
 
 export default App;
