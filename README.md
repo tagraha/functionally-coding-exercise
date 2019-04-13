@@ -24,5 +24,10 @@ open browser & navigate to `localhost:3000`
 
 
 ## The App
-the main app component is located at `src/components/apps.js`.
-once you've run `npm run build`, it will creating fresh `build` folder and `views` folder. however, this repository is not yet integrated with react-router for navigating and react-helmet for maintaining metadata 
+This is the most simple React with Server Side Rendering. the main app component is located at `src/components/apps.js`. You can find webpack config on `webpack.config.js`.
+once you've run `npm run build`, it will creating fresh `build` folder and `views` folder. You'll need these folder to make the app working. however, this repository is not yet integrated with react-router for navigating and react-helmet for maintaining metadata 
+
+## Styles & Media
+You can find the styling files on `assets/sass/style.scss`. you need to build/compile css files manualy. This apps needs `style.css` inside `/assets` folder. If you have sass installed on your computer globally, you can simply run `sass --watch assets/sass/style.scss:assets/style.css` and modify the style to fit your needs. it will updated `style.css` for you. 
+
+you can use `/media` folder to store your images;
