@@ -27,7 +27,7 @@ const ssr = require('./views/server');
 // server rendered home page
 app.get('/', (req, res) => {
   const { preloadedState, content}  = ssr(initialState)
-  const response = template("Server Rendered Page", preloadedState, content)
+  const response = template("Functionally - Codin exercise", preloadedState, content)
   res.setHeader('Cache-Control', 'assets, max-age=0')
   res.send(response);
 });
