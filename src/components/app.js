@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <Fragment>
         <div className="row center-xs">
-          <div className="col-xs-6">
+          <div className="col-xs-12 col-sm-12 col-md-6">
             <div className="box">
               <p className="main-text-content">
                 Yeah, but I never picked a fight in my entire life. I just wanna use the phone. I'm gonna ram him
@@ -33,7 +33,7 @@ class App extends Component {
         </div>
 
         <div className="row center-xs">
-          <div className="col-xs-6">
+          <div className="col-xs-12 col-sm-12 col-md-6">
             <Response />
           </div>
         </div>
