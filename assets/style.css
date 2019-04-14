@@ -919,6 +919,12 @@ table {
   top: -22.8571428571px;
   color: #bdc3c7; }
 
+body {
+  font-family: 'Roboto', sans-serif; }
+
+.wrap-inner {
+  padding: 0 55px; }
+
 .flex {
   display: flex;
   align-items: center;
@@ -998,5 +1004,11 @@ table {
   .responses-box .responses-body {
     color: #444444;
     font-size: 18px; }
+
+.bubble-icon {
+  position: relative;
+  top: 5px;
+  right: 4px;
+  line-height: 26px; }
 
 /*# sourceMappingURL=style.css.map */
