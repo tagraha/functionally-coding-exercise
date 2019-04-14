@@ -16,6 +16,7 @@ function template(title, initialState = {}, content = ""){
                 <meta charset="utf-8">
                 <title> ${title} </title>
                 <link href="assets/style.css" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
               </head>
               <body>
                 <div class="content">
