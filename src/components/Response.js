@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import { connect } from 'react-redux'
 
 import { submitResponse } from '../redux/actions'
+import BubbleIcon from './BubbleIcon';
 import ResponseInput from './ResponseInput';
 import ResponseList from './ResponseList';
 
@@ -55,7 +56,7 @@ class Response extends Component {
         <div className="response-box-wrapper" onClick={this.toggleInputVisibility}>
           <h1 className="response-header">Response</h1>
           {!isResponseInputVisible &&
-            <div className="response-box">Write a response...</div>
+            <div className="response-box"> <BubbleIcon /> Write a response...</div>
           }
         </div>
 
